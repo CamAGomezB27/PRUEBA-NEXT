@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  keywords: ["Abaout Page", "Camilo", "Practica"],
+  keywords: ['Abaout Page', 'Camilo', 'Practica'],
 };
 
 export default function HomePage() {
@@ -12,7 +12,7 @@ export default function HomePage() {
         <h1 className="text-5xl">Hola Mundo</h1>
 
         <button className="bg-white text-black rounded-lg w-30 h-10 hover:scale-110 hover:bg-gray-500 cursor-pointer">
-          <Link href={"/about"}>About Page</Link>
+          <Link href={'/about'}>About Page</Link>
         </button>
       </main>
     </div>

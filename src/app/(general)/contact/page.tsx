@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "SEO Contact",
-  description: "SEO Puede COntactarme",
-  keywords: ["Abaout Page", "Camilo", "Practica"],
+  title: 'SEO Contact',
+  description: 'SEO Puede COntactarme',
+  keywords: ['Abaout Page', 'Camilo', 'Practica'],
 };
 
 export default function ContactPage() {

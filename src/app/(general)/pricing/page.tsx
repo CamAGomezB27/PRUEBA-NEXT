@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "SEO Precios",
-  description: "SEO Aca puede comprar",
-  keywords: ["Abaout Page", "Camilo", "Practica"],
+  title: 'SEO Precios',
+  description: 'SEO Aca puede comprar',
+  keywords: ['Abaout Page', 'Camilo', 'Practica'],
 };
 
 export default function PricingPage() {

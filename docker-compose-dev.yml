@@ -1,6 +1,6 @@
 # ( desarrollo)
 
-version: "3.9"
+version: '3.9'
 
 services:
   dev:
@@ -10,5 +10,5 @@ services:
       - .:/app
       - /app/node_modules
     ports:
-      - "3000:3000"
+      - '3000:3000'
     command: npm run dev

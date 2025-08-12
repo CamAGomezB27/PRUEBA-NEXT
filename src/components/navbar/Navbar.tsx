@@ -1,12 +1,12 @@
-import { HomeIcon } from "@primer/octicons-react";
-import Link from "next/link";
-import { ActiveLink } from "../active-link/ActiveLink";
+import { HomeIcon } from '@primer/octicons-react';
+import Link from 'next/link';
+import { ActiveLink } from '../active-link/ActiveLink';
 
 const NavItems = [
-  { path: "/about", text: "About", title: "Sobre mi" },
-  { path: "/pricing", text: "Pricing", title: "precio" },
-  { path: "/contact", text: "Contact", title: "Contacto" },
-  { path: "/contador", text: "Contador", title: "Contador" },
+  { path: '/about', text: 'About', title: 'Sobre mi' },
+  { path: '/pricing', text: 'Pricing', title: 'precio' },
+  { path: '/contact', text: 'Contact', title: 'Contacto' },
+  { path: '/contador', text: 'Contador', title: 'Contador' },
 ];
 
 export const Navbar = () => {

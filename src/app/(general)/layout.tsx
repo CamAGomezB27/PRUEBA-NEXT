@@ -1,4 +1,4 @@
-import { Navbar } from "@/src/components";
+import { Navbar } from '@/src/components';
 
 export default function AboutLayout({
   children,
