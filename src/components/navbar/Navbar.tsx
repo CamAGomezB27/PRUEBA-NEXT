@@ -14,7 +14,7 @@ export const Navbar = () => {
     <nav className="flex bg-blue-900 bg-opacity-30 p-2 m-2 rounded-2xl">
       <Link
         className="flex items-center transform transition-transform duration-100 ease-out hover:scale-110 hover:text-blue-300 active:text-blue-400"
-        href="/"
+        href="/home"
       >
         <HomeIcon className="mr-2" />
         <span>Home</span>

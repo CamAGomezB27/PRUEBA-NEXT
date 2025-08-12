@@ -9,7 +9,7 @@ export default function AboutLayout({
     <>
       <Navbar />
       <main className="flex flex-col items-center p-2">
-        <span className="text-lg">Hola Mundo</span>
+        <h1 className="text-lg">Hola Mundo</h1>
         {children}
       </main>
     </>
