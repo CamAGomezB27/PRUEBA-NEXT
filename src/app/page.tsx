@@ -6,7 +6,9 @@ export default function HomePage() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center">
         <span className="text-5xl">Hola Mundo</span>
 
-        <Link href={"/about"}>About Page</Link>
+        <button className="bg-white text-black rounded-lg w-30 h-10 hover:scale-110 hover:bg-gray-500 cursor-pointer">
+          <Link href={"/about"}>About Page</Link>
+        </button>
       </main>
     </div>
   );

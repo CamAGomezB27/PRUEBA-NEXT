@@ -6,6 +6,7 @@ const NavItems = [
   { path: "/about", text: "About", title: "Sobre mi" },
   { path: "/pricing", text: "Pricing", title: "precio" },
   { path: "/contact", text: "Contact", title: "Contacto" },
+  { path: "/contador", text: "Contador", title: "Contador" },
 ];
 
 export const Navbar = () => {
